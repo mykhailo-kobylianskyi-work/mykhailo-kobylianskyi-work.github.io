@@ -240,6 +240,17 @@ figure {
   transition-property: left, right, top;
 }
 
+
+@media screen and (max-width: 480px) {
+  .fh5co-projects-feed .fh5co-project.masonry-brick {
+    position: relative !important;
+    top: 10px !important;
+    left: 5vw !important;
+  }
+
+
+}
+
 .page-content {
   margin: 0 auto;
   max-width: 620px;
